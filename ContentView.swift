@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("count") var count = 0
+    @AppStorage("count") var count = 10
     @AppStorage("remaining") var cookiesRemaining = 40
     @AppStorage("message") private var message = ""
     
