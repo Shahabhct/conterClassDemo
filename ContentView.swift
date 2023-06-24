@@ -25,7 +25,7 @@ struct ContentView: View {
                 Text("eat a cookie")
                     .padding()
                     .font(.system(size: 40))
-                    .background(.blue)
+                    .background(.red)
                     .foregroundColor(.black)
                     .cornerRadius(10)
             }
